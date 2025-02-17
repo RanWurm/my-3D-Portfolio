@@ -29,6 +29,7 @@ import {
   arkanoid,
   amit,
   tomer,
+  roni,
   java
 } from "../assets";
 
@@ -200,6 +201,14 @@ const testimonials = [
     designation: "employee",
     company: "456 Enterprises",
     image: tomer,
+  },
+  {
+  testimonial:
+    "Ran is one of the smartest students I've ever had the pleasure of working with, earning his nickname as the human debugger for his uncanny ability to pinpoint even the most elusive bugs.,",
+    name:"Roni Jack Vituli",
+    designation: "employee",
+    company: "Expander",
+    image: roni,
   },
 ];
 

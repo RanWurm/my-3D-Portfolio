@@ -58,7 +58,7 @@ const MySummary = () => {
           <div className="w-48 h-48 lg:w-56 lg:h-56 mx-auto lg:mx-0">
             <div className="w-full h-full rounded-full overflow-hidden bg-black-200 border-2 border-[#00cea8]">
               <img 
-                src="../../public/profile.png" 
+                src="./profile.png" 
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />

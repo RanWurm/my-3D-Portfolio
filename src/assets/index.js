@@ -37,6 +37,7 @@ import arkanoid from "./arkanoid.png"
 import eyal from "./eyal.png"
 import amit from "./amit.png"
 import tomer from "./tomer.png"
+import roni from "./roni.png"
 
 export {
   logo,
@@ -73,6 +74,7 @@ export {
   eyal,
   amit,
   tomer,
+  roni,
   c,
   python,
   java
