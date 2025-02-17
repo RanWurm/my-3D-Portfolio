@@ -199,7 +199,7 @@ const testimonials = [
     "Your mentorship transformed my CS studies—turning complex topics into accessible challenges and inspiring my academic growth.",
     name: "Tomer pisakov",
     designation: "employee",
-    company: "456 Enterprises",
+    company: "BillRun",
     image: tomer,
   },
   {
