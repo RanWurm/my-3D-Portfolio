@@ -84,7 +84,7 @@ const Works = () => {
   }, []);
 
   return (
-    <>
+    <section id="project" className="scroll-mt-24">
       <style>
         {`
           .hide-scrollbar {
@@ -129,7 +129,7 @@ const Works = () => {
           </div>
         )}
       </div>
-    </>
+    </section>
   );
 };
 
