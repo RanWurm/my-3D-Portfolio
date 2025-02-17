@@ -43,7 +43,7 @@ const MySummary = () => {
                 <div className="mt-7 flex items-center gap-1">
                   <div className="flex-1 flex flex-col">
                     <p className="text-white font-medium text-[16px]">
-                      <span className="blue-text-gradient">@</span>Car RentRan Wurmbrand
+                      <span className="blue-text-gradient">@</span>Ran Wurmbrand
                     </p>
                     <p className="mt-1 text-secondary text-[12px]">
                       SoftWare Engineer
