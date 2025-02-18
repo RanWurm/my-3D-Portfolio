@@ -1,8 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 import { Analytics } from '@vercel/analytics/react';
 import { About, Contact, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas,MySummary } from "./components";
-
+import useIsMobile from "./hooks/useIsMobile";
 const App = () => {
+  const isMobile = useIsMobile();
   return (
     <BrowserRouter>
     <Analytics />
@@ -13,7 +14,7 @@ const App = () => {
         </div>
         <About />
         <MySummary />
-        <Tech />
+        {!isMobile && <Tech />} {/* Render Tech only if not on mobile */}
         <Works />
         <Feedbacks />
         <div className='relative z-0'>
