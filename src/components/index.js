@@ -8,6 +8,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import MySummary from './MySummary';
+import HeySection from './HeySection';
 
 export {
   Hero,
@@ -22,5 +23,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  MySummary
+  MySummary,
+  HeySection
 };
