@@ -128,14 +128,7 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         {/* Render EarthCanvas only on non-mobile devices */}
-      {!isMobile && (
-        <motion.div
-          variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
-        >
-          <EarthCanvas />
-        </motion.div>
-      )}
+      {!isMobile && <EarthCanvas />}
       </motion.div>
     </div>
   );
