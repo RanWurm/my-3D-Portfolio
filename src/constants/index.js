@@ -181,7 +181,7 @@ const testimonials = [
   {
     testimonial:
     "Ran is one of the smartest student's i ever had the pleasure to work with,",
-    name:"Eyal Marcovich",
+    name:"Eyal Wurmbrand",
     designation: "employee",
     company: "Intel",
     image: eyal,
