@@ -23,6 +23,8 @@ const Hero = () => {
                 Hi, I'm <span className="text-[#915EFF]">Ran</span>
               </h1>
               <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+                Im a Software Engineer at Red Hat,  
+                <br className="sm:block hidden" />
                 I develop full stack mobile apps,
                 <br className="sm:block hidden" />
                 web applications, AI models,
@@ -71,13 +73,15 @@ const Hero = () => {
             <h1 className={`${styles.heroHeadText} text-white`}>
               Hi, I'm <span className="text-[#915EFF]">Ran</span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I develop full stack mobile apps,
-              <br className="sm:block hidden" />
-              web applications, AI models,
-              <br className="sm:block hidden" />
-              and low level programs
-            </p>
+              <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+                Im a Software Engineer at Red Hat,  
+                <br className="sm:block hidden" />
+                I develop full stack mobile apps,
+                <br className="sm:block hidden" />
+                web applications, AI models,
+                <br className="sm:block hidden" />
+                and low level programs
+              </p>
           </div>
         </div>
 
